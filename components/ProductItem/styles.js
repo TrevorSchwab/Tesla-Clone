@@ -9,17 +9,22 @@ export const styles = StyleSheet.create({
     marginTop: '30%',
     width: '100%',
     alignItems: 'center',
+    justifyContent: 'center',
+    paddingHorizontal: 20,
   },
   title: {
     fontSize: 40,
     fontWeight: '500',
+    textAlign: 'center',
   },
   subtitle: {
     fontSize: 16,
     color: '#5c5e62',
+    textAlign: 'center',
   },
   subtitleLink: {
     textDecorationLine: 'underline',
+    textAlign: 'center',
   },
   image: {
     width: '100%',

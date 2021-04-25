@@ -2,10 +2,12 @@ import { StatusBar } from 'expo-status-bar';
 import React from 'react';
 import { StyleSheet, View } from 'react-native';
 import ProductList from './components/ProductList/index';
+import Header from './components/Header/index';
 
 export default function App() {
   return (
     <View style={styles.container}>
+      <Header />
       <ProductList />
     </View>
   );

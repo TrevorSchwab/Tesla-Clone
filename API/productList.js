@@ -22,4 +22,14 @@ export const API_PRODUCT_LIST = [
     subtitleLink: 'Touchless Delivery',
     image: require('../assets/images/ModelY.jpeg'),
   },
+  {
+    name: 'Lowest Cost Solar Panels in America',
+    subtitle: 'Money back guarantee',
+    image: require('../assets/images/SolarPanels.jpeg'),
+  },
+  {
+    name: 'Solar for New Roofs',
+    subtitle: 'Solar Roof Costs Less Than a New Roof Plus Solar Panels',
+    image: require('../assets/images/SolarRoof.jpeg'),
+  },
 ];
