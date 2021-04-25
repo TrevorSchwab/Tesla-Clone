@@ -3,7 +3,7 @@ import { View, Text, ImageBackground } from 'react-native';
 import { styles } from './styles';
 import Button from '../Button/index';
 
-const CarItem = ({ name, subtitle, subtitleLink, image }) => {
+const ProductItem = ({ name, subtitle, subtitleLink, image }) => {
   return (
     <View style={styles.carContainer}>
       <ImageBackground source={image} style={styles.image} />
@@ -27,4 +27,4 @@ const CarItem = ({ name, subtitle, subtitleLink, image }) => {
   );
 };
 
-export default CarItem;
+export default ProductItem;
